@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightpink;
+}
+
+.first {
+  padding-top: 20px;
+  font-family: sans-serif;
+  margin-top: 10px;
+  text-align: center;
+  color: purple;
+  line-height: 2rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.3rem;
+}
+
+.second {
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  padding: 70px 70px 70px 70px;
+  margin-left: 600px;
+  margin-top: 60px;
+}
+
+.btn {
+  background-color: lightgreen;
+  padding: 20px 20px 20px 20px;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
