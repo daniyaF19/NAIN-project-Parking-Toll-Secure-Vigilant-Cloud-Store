@@ -4,24 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <link rel="stylesheet" href="my.css" />
   </head>
   <body>
-    <div class="first">
-      <h1>Parking Toll-Secure Vigilant Cloud Store <br /></h1>
+  <section class="first">
+    <h1>Parking Toll-Secure Vigilant Cloud Store <br /></h1>
+  </section>
+    <div class="container">
+    <div class="header">
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#sign-in">Sign-in</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="about-section" id="about">
+        <h2>About</h2>
+        <p> Our project is based on parking toll-secure Vigilant cloud Store,
+          it gives basic idea about cloud computing,artificial intelligence 
+          in our app.This app is used to monitor the status of every parking
+          lot available.By applying this app we can reduce the stress and time.
+          It provides e-building and long term storage.</p>
+      </div>
+      <div class="sign-in section" id="sign-in">
+        <h2>Sign in</h2>
+    <form action="demo_form.php" autocomplete="on">
+          Username: <input type="text" name="username" /><br />
+          <br />
+          Password: <input type="text" name="password" minlength="8" /><br />
+          <br />
+          E-mail: <input type="text" name="email" /><br />
+          <br />
+          Mobile no: <input type="text" name="mobile no" maxlength="10" /><br />
+          <br />
+          Type-of vehicle : <input type="car" name="car" /><br />
+          <br />
+          Hours : <input type="text" name="hours" /><br />
+          <br />
+          Parking slot-no : <input type="text" name="parking slot-no" /><br />
+          <br />
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+      <div class="contact-section" id="contact">
+        <span>Contact</span>
+        <div class="ref">
+          <a href="https://github.com/daniyaF19" target="_blank"><i class="fa fa-github"></i></i></a>
+          <a href="https://www.linkedin.com/in/daniya-firdose-414339197" target="_blank"><i class="fa fa-linkedin"></i></i></a>
+        </div>
+      </div>
+      <!-- <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.6889380077055!2d77.2912541141329!3d12.733704423500638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4e64edba0f77%3A0x7064a5a497426bd9!2sGhousia%20College%20Of%20Engineering!5e0!3m2!1sen!2sin!4v1589700087808!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border: 0;"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+      ></iframe> -->
     </div>
-    <section class="second">
-      <form action="demo_form.php" autocomplete="on">
-        Username: <input type="text" name="username" /><br />
-        <br />
-        Password: <input type="text" name="password" maxlength="8" /><br />
-        <br />
-        E-mail: <input type="text" name="email" /><br />
-        <br />
-        Mobile no: <input type="text" name="mobile no" maxlength="10" /><br />
-        <br />
-        <button class="btn">Submit</button>
-      </form>
-    </section>
   </body>
 </html>

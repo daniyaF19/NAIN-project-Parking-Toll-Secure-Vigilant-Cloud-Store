@@ -4,9 +4,10 @@
 }
 
 body {
-  background-color: lightpink;
+  background-image: url("parking.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 .first {
   padding-top: 20px;
   font-family: sans-serif;
@@ -17,15 +18,173 @@ body {
   font-size: 1.7rem;
   letter-spacing: 0.3rem;
 }
+.header {
+  color: darkslategray;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-.second {
+.navbar {
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-family: Tahoma;
+  margin-right: 80px;
+  border: 2px solid transparent;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background: #000;
+  border: 2px solid #fff;
+}
+.about-section h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-decoration: underline;
+  animation: text 3s 1;
+  transform: translate(-0%, -0%);
+}
+@keyframes text {
+  0% {
+    color: salmon;
+  }
+  30% {
+    letter-spacing: 10px;
+  }
+  85% {
+    letter-spacing: 5px;
+  }
+}
+
+.about-section p {
+  font-size: 30px;
+  font-family: roboto;
+  width: 1000px;
+  color: white;
+  background: darkslategray;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+  animation: text 3s 1;
+  transform: translate(-0%, -0%);
+}
+
+@keyframes text {
+  0% {
+    color: salmon;
+  }
+  30% {
+    letter-spacing: 10px;
+  }
+  85% {
+    letter-spacing: 5px;
+  }
+}
+.sign in section {
+  background: darkslategray;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+/* .sign-in section h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 10px;
+  animation: text 3s 1;
+  transform: translate(-0%, -0%);
+}
+
+@keyframes text {
+  0% {
+    color: salmon;
+  }
+  30% {
+    letter-spacing: 10px;
+  }
+  85% {
+    letter-spacing: 5px;
+  }
+} */
+/* form {
   align-items: center;
   position: absolute;
   background-color: white;
   padding: 70px 70px 70px 70px;
   margin-left: 600px;
   margin-top: 60px;
+} */
+.contact-section {
+  height: 56vh;
+  background: darkslategray;
+  text-align: center;
 }
+
+.contact-section span {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  animation: text 3s 1;
+  transform: translate(-0%, -0%);
+}
+
+@keyframes text {
+  0% {
+    color: salmon;
+  }
+  30% {
+    letter-spacing: 10px;
+  }
+  85% {
+    letter-spacing: 5px;
+  }
+}
+
+.ref {
+  margin: 0px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.ref a {
+  display: inline-flex;
+  text-decoration: none;
+  width: 90px;
+  height: 90px;
+  background: black;
+  margin: 0px;
+  border-radius: 50%;
+  justify-content: center;
+  font-size: 35px;
+  align-items: center;
+}
+
+.contact-section img:hover {
+  border: 10px solid #fff;
+  transition: 0.3s;
+}
+
+/* form {
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  padding: 70px 70px 70px 70px;
+  margin-left: 600px;
+  margin-top: 60px;
+} */
 
 .btn {
   background-color: lightgreen;
@@ -34,3 +193,17 @@ body {
   margin-top: 20px;
   border-radius: 20px;
 }
+
+/* @media all and (max-width: 1200px) {
+  .first {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .second {
+    margin: 50px;
+    padding: 50px;
+    align-items: center;
+  }
+} */
